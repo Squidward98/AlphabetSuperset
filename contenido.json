@@ -27,11 +27,11 @@
 
     "next_fecha": {
         "titulo": "¡Próximamente! 24/06/2024",
-        "contenido": "<section class='paragraph_post'><p>Lamentablemente, la entrada que deseas consultar aún no ha sido creada. Sin embargo, ten la seguridad de que estoy trabajando diligentemente en ella y estará disponible en un futuro cercano. Te animo a que vuelvas más tarde para encontrar la información que estás buscando. Agradezco tu comprensión y paciencia mientras trabajo para proporcionarte la siguiente palabra.</p><br><br><a href='/img/listado.jpg' target='_blank'><h2>Listado de fechas</h2></a>"
+        "contenido": "<section class='paragraph_post'><p>Lamentablemente, la entrada que deseas consultar aún no ha sido creada. Sin embargo, ten la seguridad de que estoy trabajando diligentemente en ella y estará disponible en un futuro cercano. Te animo a que vuelvas más tarde para encontrar la información que estás buscando. Agradezco tu comprensión y paciencia mientras trabajo para proporcionarte la siguiente palabra.</p><br><br><a href='/img/listado.jpg' download='listado.jpg'><h2>Descarga listado de fechas aquí</h2></a>"
     },
 
     "next": {
         "titulo": "¡Próximamente!",
-        "contenido": "<section class='paragraph_post'><p>Lamentablemente, la entrada que deseas consultar aún no ha sido creada. Sin embargo, ten la seguridad de que estoy trabajando diligentemente en ella y estará disponible en un futuro cercano. Te animo a que vuelvas más tarde para encontrar la información que estás buscando. Agradezco tu comprensión y paciencia mientras trabajo para proporcionarte la siguiente palabra.</p><br><br><a href='/img/listado.jpg' target='_blank'><h2>Listado de fechas</h2></a>"
+        "contenido": "<section class='paragraph_post'><p>Lamentablemente, la entrada que deseas consultar aún no ha sido creada. Sin embargo, ten la seguridad de que estoy trabajando diligentemente en ella y estará disponible en un futuro cercano. Te animo a que vuelvas más tarde para encontrar la información que estás buscando. Agradezco tu comprensión y paciencia mientras trabajo para proporcionarte la siguiente palabra.</p><br><br><a href='/img/listado.jpg' download='listado.jpg'><h2>Descarga listado de fechas aquí</h2></a>"
     }
 }
