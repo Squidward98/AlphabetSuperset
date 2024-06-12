@@ -1,101 +1,62 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Uroboros</title>
-  </head>
-
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contenido Dinámico</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
     <div class="principal">
-      <aside class="menu">
-        <h2>Índice</h2>
-        <ul class="letters">
-          <li><a href="index.html">Introducción</a></li>
-          <li><a href="pages/a.html">Aceptación</a></li>
-          <li><a href="pages/b.html">Binario</a></li>
-          <li><a href="pages/c.html">Cambio</a></li>
-          <li><a href="pages/next.html">D...</a></li>
-          <li><a href="pages/next.html">E...</a></li>
-          <li><a href="pages/next.html">F...</a></li>
-          <li><a href="pages/next.html">G...</a></li>
-          <li><a href="pages/next.html">H...</a></li>
-          <li><a href="pages/next.html">I...</a></li>
-          <li><a href="pages/next.html">J...</a></li>
-          <li><a href="pages/next.html">K...</a></li>
-          <li><a href="pages/next.html">L...</a></li>
-          <li><a href="pages/next.html">LL...</a></li>
-          <li><a href="pages/next.html">M...</a></li>
-          <li><a href="pages/next.html">N...</a></li>
-          <li><a href="pages/next.html">Ñ...</a></li>
-          <li><a href="pages/next.html">O...</a></li>
-          <li><a href="pages/next.html">P...</a></li>
-          <li><a href="pages/next.html">Q...</a></li>
-          <li><a href="pages/next.html">R...</a></li>
-          <li><a href="pages/next.html">S...</a></li>
-          <li><a href="pages/next.html">T...</a></li>
-          <li><a href="pages/next.html">U...</a></li>
-          <li><a href="pages/next.html">V...</a></li>
-          <li><a href="pages/next.html">W...</a></li>
-          <li><a href="pages/next.html">X...</a></li>
-          <li><a href="pages/next.html">Y...</a></li>
-          <li><a href="pages/next.html">Z...</a></li>
-        </ul>
-      </aside>
+        <aside class="menu">
+            <h2>Índice</h2>
+            <div>
+                <ul id="indice letters" >
+                    <li><a href="#" onclick="cargarContenido('introduccion')">Introducción</a></li>
+                    <li><a href="#" onclick="cargarContenido('aceptacion')">Aceptación</a></li>
+                    <li><a href="#" onclick="cargarContenido('binario')">Binario</a></li>
+                    <li><a href="#" onclick="cargarContenido('cambio')">Cambio</a></li>
+                    <li><a href="#" onclick="cargarContenido('next_fecha')">Duda</a></li>
+                    <li><a href="#" onclick="cargarContenido('next')">E...</a></li>
+                    <li><a href="#" onclick="cargarContenido('next')">F...</a></li>
+                    <li><a href="#" onclick="cargarContenido('next')">G...</a></li>
+                    <li><a href="#" onclick="cargarContenido('next')">H...</a></li>
+                    <li><a href="#" onclick="cargarContenido('next')">I...</a></li>
+                    <li><a href="#" onclick="cargarContenido('next')">J...</a></li>
+                    <li><a href="#" onclick="cargarContenido('next')">K...</a></li>
+                    <li><a href="#" onclick="cargarContenido('next')">L...</a></li>
+                    <li><a href="#" onclick="cargarContenido('next')">LL...</a></li>
+                    <li><a href="#" onclick="cargarContenido('next')">M...</a></li>
+                    <li><a href="#" onclick="cargarContenido('next')">N...</a></li>
+                    <li><a href="#" onclick="cargarContenido('next')">Ñ...</a></li>
+                    <li><a href="#" onclick="cargarContenido('next')">O...</a></li>
+                    <li><a href="#" onclick="cargarContenido('next')">P...</a></li>
+                    <li><a href="#" onclick="cargarContenido('next')">Q...</a></li>
+                    <li><a href="#" onclick="cargarContenido('next')">R...</a></li>
+                    <li><a href="#" onclick="cargarContenido('next')">S...</a></li>
+                    <li><a href="#" onclick="cargarContenido('next')">T...</a></li>
+                    <li><a href="#" onclick="cargarContenido('next')">U...</a></li>
+                    <li><a href="#" onclick="cargarContenido('next')">V...</a></li>
+                    <li><a href="#" onclick="cargarContenido('next')">W...</a></li>
+                    <li><a href="#" onclick="cargarContenido('next')">X...</a></li>
+                    <li><a href="#" onclick="cargarContenido('next')">Y...</a></li>
+                    <li><a href="#" onclick="cargarContenido('next')">Z...</a></li>
+                </ul>
+            </div>
+            
 
-      <main class="sections">
-        <h1>UROBOROS</h1>
-        <section class="introduction">
-          <h2>¡Hola! Mi nombre es Juan Cruz, tu <strong><a href="https://squidward98.github.io/Portfolio/" target="_blank">blu3b0y</a></strong> de confianza :)</h2>
-          <p>
-            Soy estudiante de desarrollo web y
-            este es mi proyecto para el Alphabet Superset. 
-            <br>
-            <br>
-            <strong>Este proyecto 
-            comenzó el 27 de mayo de 2024 y finalizará el 25 de noviembre de 2024. 
-            Cada semana se publicará una nueva página en esta web, cuyo contenido 
-            será un escrito corto basado en una palabra particular, con la idea de
-            expresar parte de mis pensamientos más profundos en relación a ella.</strong> 
-            Espero que me acompañes en este camino y que mis pequeñas <i>“cartas”</i> te produzcan algo 
-            positivo, o al menos te dejen reflexionando sobre diversos aspectos de la vida.
-          </p>
-        </section>
-
-        <section class="alphabet_superset">
-          <h2>Alphabet Superset</h2>
-          <p>
-            El Alphabet Superset es un desafío artístico creado por el 
-            ilustrador, youtuber y escritor Campbell Walker, también conocido como
-             <strong><a href="https://www.youtube.com/@struthless" target="_blank">Struthless</a></strong>.
-            Su finalidad es producir una composición artística por semana,
-            durante 26 semanas. Cada tema semanal es a elección del autor y 
-            comienza con una letra diferente del abecedario, de la A a la Z, 
-            pero con un pequeño giro: aunque el tema cambia semanalmente, el 
-            medio, el estilo y la temática principal son siempre los mismos. 
-            Externamente, se busca crear un cuerpo cohesivo de trabajo creativo, 
-            tanto para el individuo que lo lleva a cabo como para el público 
-            al que se muestra. Internamente, el objetivo es superar los límites 
-            mentales que le impiden al autor alcanzar su potencial. En conjunto, 
-            la meta es hacer que compartir nuestra creatividad en Internet ya no se 
-            sienta como “contenido”, sino como algo espiritualmente satisfactorio.
-          </p>
-          <br>
-          <p>
-            Descubre más sobre el Alphabet Superset haciendo click
-            <strong
-              ><a href="https://www.alphabetsuperset.com/" target="_blank"
-                >aquí</a
-              ></strong
-            >.
-          </p>
-        </section>
-      </main>
+        </aside>
+        <main class="sections">
+            <div id="contenido">
+                <p>Haz clic en un enlace del índice para cargar contenido.</p>
+            </div>
+        </main>
     </div>
-
+    
     <footer class="footer_flex_container">
-      <p class="autor"><a href="https://github.com/Squidward98?tab=repositories" target="_blank">Squidward98</a> &copy; 2024. Todos los derechos reservados.</p>
-    </footer>
-  </body>
+        <p class="autor"><a href="https://github.com/Squidward98?tab=repositories" target="_blank">Squidward98</a> &copy; 2024. Todos los derechos reservados.</p>
+      </footer>
+    
+    <script src="js/script.js"></script>
+</body>
 </html>
