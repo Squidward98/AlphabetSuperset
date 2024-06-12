@@ -34,11 +34,22 @@ body {
 }
 
 img {
-  width: 100%;
+  width: 55%;
+}
+
+.img_post{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 
 ul{
     list-style-type: none;
+}
+
+li {
+  padding-bottom: 3px;
 }
 
 a {
